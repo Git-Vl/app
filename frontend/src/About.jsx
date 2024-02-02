@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-
-function App() {
+const About = () => {
   const [message, setMessage] = useState("");
   const location = "http://localhost:8080" + window.location.pathname;
   console.log(location);
@@ -20,8 +19,8 @@ function App() {
   return (
     <div>
       <h1>{message} from JAVA + the other part of this string from React</h1>
+       <a href="/kjfbdnkjnkdnm">jnsdikvjfoivkjsop</a>
     </div>
   );
-}
-
-export default App;
+  };
+  export { About };
